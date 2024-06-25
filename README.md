@@ -6,7 +6,7 @@ This action uses Trufflehog OSS secret scanner to perform scanning on pull reque
 ## Usage
 Example of using this action app
 ```
-- uses: getsentry/trufflehog_reusable_workflow_test@main
+- uses: getsentry/action-secret-scanning@v1
     id: call_trufflehog
     continue-on-error: true
 - uses: mshick/add-pr-comment@b8f338c590a895d50bcbfa6c5859251edc8952fc
