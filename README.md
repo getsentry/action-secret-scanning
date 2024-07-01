@@ -4,8 +4,12 @@ Perform Secret Scanning on Pull Requests
 This action uses Trufflehog OSS secret scanner to perform scanning on pull requests.
 
 ## Usage
-Example of using this action app
+
 ```
+- uses: getsentry/trufflehog_reusable_workflow_test@main
+    id: call_trufflehog
+```
+
 Any secrets detected will be highlighted in the files changes in pull requests, as the following screenshot.
 ![Example](/secret_scanning_example.png)
 
